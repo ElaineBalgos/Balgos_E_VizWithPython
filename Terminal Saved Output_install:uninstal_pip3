@@ -1,0 +1,53 @@
+Last login: Tue Nov 19 12:06:38 on ttys000
+ats-hr420-dm04:~ e_balgos$ python3 -m pip install -U pygame --user
+Collecting pygame
+  Downloading https://files.pythonhosted.org/packages/32/37/453bbb62f90feff2a2b75fc739b674319f5f6a8789d5d21c6d2d7d42face/pygame-1.9.6-cp37-cp37m-macosx_10_11_intel.whl (4.9MB)
+    100% |████████████████████████████████| 4.9MB 8.6MB/s 
+Installing collected packages: pygame
+Successfully installed pygame-1.9.6
+You are using pip version 19.0.3, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ats-hr420-dm04:~ e_balgos$ python3 -m pygame.examples.aliens
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+ats-hr420-dm04:~ e_balgos$ pip3 uninstall pygame
+Uninstalling pygame-1.9.6:
+  Would remove:
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/_camera.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/_pygame.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/_surface.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/bitmask.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/camera.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/fastevents.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/font.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/freetype.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/mask.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/mixer.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/palette.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/pgarrinter.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/pgbufferproxy.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/pgcompat.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/pgopengl.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/pygame.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/scrap.h
+    /Users/e_balgos/Library/Python/3.7/include/python3.7m/pygame/surface.h
+    /Users/e_balgos/Library/Python/3.7/lib/python/site-packages/pygame-1.9.6.dist-info/*
+    /Users/e_balgos/Library/Python/3.7/lib/python/site-packages/pygame/*
+Proceed (y/n)? y
+  Successfully uninstalled pygame-1.9.6
+ats-hr420-dm04:~ e_balgos$ clear
+
+ats-hr420-dm04:~ e_balgos$ pip3 install matplotlib
+Requirement already satisfied: matplotlib in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (3.1.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib) (1.1.0)
+Requirement already satisfied: numpy>=1.11 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib) (1.17.1)
+Requirement already satisfied: cycler>=0.10 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: python-dateutil>=2.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib) (2.8.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib) (2.4.2)
+Requirement already satisfied: setuptools in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (40.8.0)
+Requirement already satisfied: six in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.12.0)
+You are using pip version 19.0.3, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ats-hr420-dm04:~ e_balgos$ 
+
+
